@@ -1,0 +1,204 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+%\usepackage{geometry}
+%\geometry{a4paper, potrait, margin=0.75in}
+%\usepackage[a4paper,bottom = 0.5in,left = 0.5in,right = 0.75in,top = 0.5in]{geometry}
+% \usepackage{margin=-0.5in}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.0in}
+\urlstyle{same}
+%\usepackage[margin=0.75in]{geometry}
+\usepackage[a4paper,bottom=-0.65in,left=0.75in,right=0.75in,top=1.9in]{geometry}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+ 
+% Sections formatting
+\titleformat{\section}{\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\fancy}[2]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+
+}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\hfill\break
+\hfill\break
+\hfill\break
+\hfill\break
+\vspace{-2pt}
+
+\section{\textcolor{Violet}{\textbf{\Large{S}\large{CHOLASTIC} \Large{A}\large{CHIEVEMENTS}}}}
+\vspace{-7pt}
+\begin{itemize}
+\setlength\itemsep{-2.5pt}
+\item {Represented \textbf{India} and won \textbf{Silver} in Number Marathon and \textbf{Bronze} in Mental Additions among delegates from \textbf{20} different countries at \textbf{MEMORIAD} held at Antalya,Turkey  \hfill\em{['12]}\em{}
+\item {Pursuing \textbf{Minor} degree in \textbf{Industrial Engineering and Operations Research} } \hfill\em{['20]}\em{}
+
+\item Among the top \textbf{0.1\%} candidates to be awarded certificate of merit in class 10th by \textbf{CBSE}  \hfill {\em ['16]}
+\item Secured \textbf{96.99 percentile} in \textbf{13th National Cyber Olympaid} conducted by \textbf{SOF} \hfill{\em['13]}
+\end{itemize}
+\vspace{-8.5mm}
+\section{\textcolor{Violet}{\bf{\Large{K}\large{EY} \Large{P}\large{ROJECTS}}}}}
+\vspace{-7pt}
+ {\flushleft \bf \large{Pen Scanner $|$ Electronics and Robotics club, IIT Bombay }}\hfill {\em{[Jun'19- July'20]}} \newline
+{\em{Institute Technical Summer Project}} 
+\vspace{-2.5mm}
+\begin{itemize}
+\setlength\itemsep{-3.5pt}
+\item{Utilized \textbf{Raspberry Pi} to extract text from printed material and store it in a SD card}
+\item{Used different libraries of python such as \textbf{OpenCV} for preprocessing of the captured text and \textbf{pytesseract} for displaying and saving the captured text using Raspberry Pi's camera}
+%\item{Represented the project to professors and students explaining about it's features and uses in the team of 4 at the \textbf{Institute Technical Summer Project Exposition}}
+
+ \end{itemize}
+ \vspace{-5.5mm}
+{\flushleft \bf \large{XLR8 $|$ Electronics and Robotics Club, IIT Bombay}} \hfill {\em {[Sept'18]}}
+%\newline {\em{Electronics and Robotics Club, IIT Bombay}}
+\vspace{-2.5mm}
+\begin{itemize}
+\setlength\itemsep{-3.5pt}
+\item{Made Bluetooth controlled bot using \textbf{IC LM 8705} and \textbf{L293D} through careful circuit planning}
+\item{Used \textbf{AT-TINY 2313} and Bluetooth Module \textbf{HC05} to control the bot through a mobile app}
+\item{The bot was capable of negotiating different obstacles and completing the designed track}
+%\item{Negotiated with \textbf{12+ companies} to conduct robotics workshop across \textbf{20+ colleges}}
+%\item {Incorporating Techfest Olympiad catering to \textbf{1000+} school students across \textbf{20+} cities}
+%\item{Amplifying Techfest's national reach into\textbf{ 6} broad zones by expanding tech competitions into \textbf{125+} colleges across India}
+
+\end{itemize}
+\vspace{-8mm}
+\item{}
+\item{}
+
+\vspace{3.5pt}
+\vspace{-8mm}
+
+%--------------------------------------
+
+%-------------------------------------------
+\section{\textcolor{Violet}{\bf{\Large{I}\large{NTERNSHIP}}}}
+\vspace{-7pt}
+{\flushleft \textbf {\large{TutorMate Technologies Pvt. Ltd. $|$ Subject Matter Expert  }}}}\hfill{\em{[Dec'19]}} \newline
+%{\em{Subject Matter Expert}}
+\vspace{-8mm}
+\begin{itemize}
+\setlength\itemsep{-4pt}
+\item Conceptualised comprehensive study material along with \textbf{30+} members in \textbf{Technical Team} by going through different reference books, government books, coaching and online study material
+\item Analysed contents for over \textbf{25} topics corresponding to the \textbf{Joint Entrance Exam}
+    
+\end{itemize}
+\vspace{-7mm}
+
+\section{\textcolor{Violet}{\bf{\Large{P}\large{OSITIONS} \Large{O}\large{F} \Large{R}\large{ESPONSIBILITY}}}}
+\vspace{-7pt}
+
+{\flushleft \textbf {\large{Institute Sports Convener $|$ IIT Bombay Sports }}}}\hfill{\em{[Apr'19- Feb'20]}} \newline
+{\em{Part of 35-member team selected through a rigorous process of SOP, interviews and peer reviews}}
+\vspace{-3mm}
+\begin{itemize}
+\setlength\itemsep{-4pt}
+\item{Conducted a first ever 2-day Chess Workshop intending to teach the basics of chess to beginners and improving tactical skills of intermediate players which witnessed \textbf{100+} participants}
+\item{Ideated and executed a first ever 2-week long \textbf{Institute Chess League} by ensuring competitiveness amongst \textbf{135+} chess players across 8 teams by a \textbf{formal auction} process}
+\item{Contributed to the smooth conduction of \textbf{1st Aavhan Open Rapid Rating Chess} tournament which witnessed of \textbf{500+} participants with a total prize fund of \textbf{INR 0.3 million}}
+\end{itemize}
+\vspace{-5.5mm}
+{\flushleft \bf \large{Events Coordinator $|$ Robowars $|$ Techfest IIT Bombay}} \hfill {\em {[May'19- Jan'20]}} \newline
+{\em{Part of Asia's largest Science and Technology festival with a footfall of over \textbf{175,000} people}}
+\vspace{-3mm}
+\begin{itemize}
+\setlength\itemsep{-4pt}
+\item{Sucessfully executed \textbf{India's largest} International Robowars competition with a budget of INR \textbf{4 Million} and addressed participants from \textbf{20} international teams} 
+%\item{Negotiated with \textbf{12+ companies} to conduct robotics workshop across \textbf{20+ colleges}}
+\end{itemize}
+\vspace{-5.5mm}
+%{\flushleft \textbf {\large{SCRATCH} $|$ \large{IIT Bombay}}}\hfill{\em{[Aug '18]}} \newline
+%{\em{Web and Coding Club, IIT Bombay}}
+%\vspace{-3mm}
+%\begin{itemize}
+%\setlength\itemsep{-4pt}
+%\item Lead a team of three students in developing a game which was coded in \textbf{SCRATCH} 
+
+\end{itemize}
+
+
+\vspace{3.5pt}
+\vspace{-3mm}
+\section{\textcolor{Violet}{\textbf{\Large{T}\large{ECHNICAL} \Large{S}\large{KILLS}}}}
+\vspace{-7pt}
+\begin{tabular}{p{6cm} p{11cm}}
+\textbf{Programming Languages} &{\fontsize{7}\selectfont }C, C++, R, Python, HTML\\
+
+\vspace{-3.5pt} \textbf{Tools and Softwares} & \vspace{-3.5pt}{\fontsize{7}\selectfont } MS Office, AutoCAD, MATLAB\\
+\end{tabular}
+\vspace{3.5}
+\vspace{-5.5mm}
+%------------------------------------------
+
+
+%-----------EXPERIENCE-----------------
+
+\addtolength{\topmargin}{-1in}
+\section{\textcolor{Violet}{\textbf{\Large{E}\large{XTRA} \Large{C}\large{URRICULAR} \Large{A}\large{CTIVITIES}}}}
+\vspace{-7pt}
+\begin{itemize}
+\setlength\itemsep{-3.5pt}
+\item{Bagged \textbf{silver} medal in chess competition held during Freshiesta which had \textbf{100+} participants}
+\item Executed a workshop under Student Solar Ambassador Program which broke \textbf{Guinness World Record} attended by a total of \textbf{5000+} students raising awareness about solar energy \hfill
+\item {Achieved an International chess rating of \textbf{1325} (FIDE) in Blitz and \textbf{1225} (FIDE) in Rapid from the \textbf{World Chess Federation} by defeating 9 to 10 rated players %\hfill\em{['19]}\em{}
+\item {Completed \textbf{80 hours} of rigorous chess training under the \textbf{National Sports Organization} } %\hfill\em{['19]}\em{}
+%\item {Rewarded for \textbf{high standard} of excellence in \textbf{Scientific Inclination} in School} \hfill\em{['16]}\em{}
+
+\end{itemize}
+\vspace{-8mm}
+%\section{\textcolor{Violet}{\textbf{\Large{T}\large{ECHNICAL} \Large{S}\large{KILLS}}}}
+%\vspace{-7pt}
+%\begin{tabular}{p{6cm} p{11cm}}
+%\textbf{Programming Languages} &{\fontsize{7}\selectfont }C, C++, R, Python, HTML\\
+
+%\vspace{-3.5pt} \textbf{Tools and Softwares} & %\vspace{-3.5pt}{\fontsize{7}\selectfont } MS Office, AutoCAD, MATLAB\\
+%\end{tabular}
+%---------------------------------------
+\end{document}
