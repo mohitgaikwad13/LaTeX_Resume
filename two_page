@@ -1,0 +1,225 @@
+%\documentclass{article}
+\documentclass[10.5pt]{article}
+\usepackage[a4paper,bottom = 0.6in,left = 0.75in,right = 0.75in,top = -0.4in]{geometry}
+\usepackage{verbatim}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{url}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\newcommand{\xfilll}[2][1ex]{
+	\dimen0=#2\advance\dimen0 by #1
+	\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%------------------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%------------------------------------------------
+
+\begin{document}
+	
+	\vspace*{7cm}  
+	\vspace*{-20pt}
+
+
+	\section*{\color{blue}Scholastic  Achievements\xfilll[0pt]{0.5pt}}
+	\vspace{-7pt}
+	\begin{itemize}[itemsep = -0.45mm, leftmargin=*]
+
+	    
+		\item Represented \textbf{India} and bagged \textbf{Silver} medal in Number Marathon and \textbf{Bronze} medal in Mental Additions among representatives from \textbf{20} different countries at MEMORIAD held at Antalya, Turkey \hfill{\sl \small ('12)}
+        \item Pursuing \textbf{Minor} degree in \textbf{Industrial Engineering and Operations Research} \hfill{\sl \small ('20)}
+		\item Among the top \textbf{0.1\%} candidates to be awarded certificate of merit in class 10th by \textbf{CBSE} \hfill{\sl \small ('16)}
+		\item Secured \textbf{96.99 percentile} in \textbf{13th National Cyber Olympaid} conducted by \textbf{SOF} \hfill{\em('13)}
+	%	\item 
+		
+	\end{itemize}
+	
+	\vspace{-4mm}
+	\section*{\color{blue}Internship\xfilll[0pt]{0.5pt}}
+	\vspace{-7pt}
+	\textbf{TutorMate Technologies Pvt. Ltd. $|$ Subject Matter Expert}\hfill{\sl \small (Dec'19)}  \\ 
+	%{\em{Subject Matter Expert}}\\
+	\begin{itemize}[itemsep = -0.5 mm, leftmargin=*]
+	\vspace{-17pt}	
+	    \item Conceptualised comprehensive study material along with \textbf{30+} members in \textbf{technical team} by going through different reference books, government books, coaching and online study material
+		\item Researched contents for over \textbf{20+} topics corresponding to \textbf{Joint Entrance Exam}
+		%\item Gained understanding of the various segments and the processes operating while manufacturing grease
+		
+		%\item Studied about different types of hot oil furnaces and  determined the efficiency of furnace commissioned in plant
+		%\item Acquired hands$-$on$-$experience of \textbf{product testing} in quality control lab by performing different experiments such as penetration test, four-ball test etc on several grades of grease and lubricating oil
+	    %\item Suggested modification in furnace system based on the above analysis of furnace to achieve maximum efficiency
+	\end{itemize}
+	
+\vspace{-4mm}
+\section*{\color{blue}Positions of Responsibility\xfilll[0pt]{0.5pt}}
+	\vspace{-7pt}
+	\textbf{Institute Sports Convener $|$ IIT Bombay Sports}  \hfill{\sl \small (Apr'19 - Feb'20)}  \\
+{\em{Part of 35-member team selected through a rigorous process of SOP,interviews and \textbf{peer reviews}}}\\
+	\begin{itemize}[itemsep = -0.35 mm, leftmargin=*]
+	\vspace{-17pt}
+	\item{Ideated and executed a first ever 2-week long \textbf{Institute Chess League} by ensuring competitiveness amongst \textbf{135+} chess players across 8 teams by a \textbf{formal auction} processs and combining different formats of chess}
+	\item {Successfully envisaged and conducted UG Freshmen Sports Orientation for  \textbf{1000+} freshmen}
+        \item{Conducted a first ever 2-day Chess Workshop intending to teach the basics of chess to beginners and improving tactical skills of intermediate players which witnessed \textbf{100+} participants}
+		\item  {Contributed to the smooth conduction of \textbf{1st Aavhan Open Rapid Rating Chess} tournament which witnessed of \textbf{500+} participants with a total prize fund of \textbf{INR 0.3 million}}
+       % \item Aiming \textbf{10\%} increase in total internships through targeted contacting and data mining
+	\end{itemize}
+	\vspace{1mm}
+%	\textbf{Student Mentor $|$ Department Academic Mentorship Programme, IIT Bombay}  \hfill{\sl \small (April 2018 - Present)}  \\
+%    {Part of a \textbf{24 member} team selected from \textbf{96 aspirants} on excellence in academics and interpersonal skills}  \\
+%	{Part of a 24 member team selected from 96 aspirants of Chemical Engineering Department based on excellence in academics and extracurricular activities,
+%mentoring skills, personal qualities and peer review}  \\ 
+%	\begin{itemize}[itemsep = -0.5 mm, leftmargin=*]
+%	\vspace{-17pt}	
+ %       \item \textbf{Mentoring 6 students} of the sophomore batch to cope with academic difficulties and otherwise
+%		\item  Attended a mentor training program organized by \textbf{Tata Institute of Social Sciences} 
+	\end{itemize} 
+	\vspace{1mm}
+	\textbf{Events Coordinator $|$ Robowars $|$ Techfest IIT Bombay}  \hfill{\sl \small (Aug'19 - Jan'20 )}  \\
+	{{\em{Part of Asia's largest Science and Technology festival with a footfall of over \textbf{175,000} people}} \\
+	\begin{itemize}[itemsep = -0.35 mm, leftmargin=*]
+	\vspace{-17pt}	
+    %    \item{Leading a team of \textbf{10+} organizers responsible for ideating and execution of \textbf{280+} events}
+        \item{Successfully executed the \textbf{India's largest} International Robowars competition with a budget of INR \textbf{4 Million} and addressing participants from \textbf{20} international teams}}
+        \item{Successfully negotiated with \textbf{12 companies} to conduct \textbf{free} robotics workshop across \textbf{25 colleges}}
+        \item {Incorporated Techfest Olympiad catering to \textbf{1000+} school students across \textbf{20} cities}
+        \item{Amplified Techfest's national reach into\textbf{ 6} broad zones by expanding tech competitions such as Cosmo Clench, Meshmerise and Code-Decode across \textbf{6} states and \textbf{125+} colleges across India}
+        \item{Met executive board of \textbf{National Stock Exchange} for promoting the \textbf{Financial Literacy} by conducting workshops and competitions targeting \textbf{10,000+} students in rural areas of India}
+	\end{itemize}
+	    \vspace{1mm}
+	    \vspace{-4mm}
+\section*{\color{blue}Attributes Acquired\xfilll[0pt]{0.5pt}}
+	\vspace{-9pt}
+	\begin{itemize}[itemsep = -0.7 mm, leftmargin=*]
+		\item \textbf{Programming:} \hspace{.8cm}C++, R, Python, MATLAB, SCRATCH
+		\item \textbf{Software:} \hspace{1.7cm}Microsoft Office, AutoCAD,  MySQL, \LaTeX
+		\item \textbf{Electronics:} \hspace{1.25cm}Arduino, Raspberry Pi
+		\item \textbf{Communication:} \hspace{0.4cm}English [Fluent], Hindi [Native], Marathi [Native]
+	\end{itemize}
+	\vspace{-19 pt}
+%		\textbf{Photography and Fine Arts Secretary $|$ Hostel 9, IIT Bombay}  \hfill{\sl \small (July 2017 - March 2018)}  \\
+%		{Part of 33 member team of Hostel Council }\\
+%	\begin{itemize}[itemsep = -0.5 mm, leftmargin=*]
+%	\vspace{-19pt}
+	    
+ %       \item Handled logistics for the hostel in PFA General Championships conducted by Institute cultural council
+  %      \item  Organised \textbf{DSLR handling} workshop and captured hostel events and featured them on hostel cult corner
+%	\end{itemize}
+\newpage
+\addtolength{\topmargin}{0.75in}
+	\vspace{-1mm}
+	
+	\section*{\color{blue}Key Projects\xfilll[0pt]{0.5pt}}
+	%\vspace{-7pt}
+	%\section*{Course Projects}
+	
+	\vspace{-7pt}
+	\textbf{Pen Scanner $|$ Electronics and Robotics club, IIT Bombay}  \hfill{\sl \small (Jun'19- Jul' 19)} 	\\
+	{\em{Institute Technical Summer Project}}
+	\vspace{-7pt}
+	\begin{itemize}[itemsep = -0.35mm, leftmargin=*]
+	\item Utilized \textbf{Raspberry Pi} to extract text from printed material and store it in SD card
+\item Used different libraries of python such as \textbf{OpenCV} for preprocessing of the captured text and \textbf{pytesseract} for displaying and saving the captured text using Raspberry Pi's camera
+\item Represented the project to Professors and students explaining about its features and uses in the team of 4 at the \textbf{Institute Technical Summer Project Exposition}
+%\item Verified thermodynamic consistency of the obtained data with the help of Gibbs-Duhem equation
+	%	\item Aim: To find optimized route for distribution of books in government schools in district Guntur and Kurnool
+	%	\item Solved the optimization problem by using an open source spreadsheet solver for Vehicle Routing Problems and understand the equations used to optimize route
+	%	\item  Used the existing data of several locations within optimize
+	%	\item Calculated the cost of optimized trip for both Kurnool and Guntur district and plotted on map for visualization
+	\end{itemize}
+	\vspace{-1mm}
+	\textbf{XLR8 $|$ Electronics and Robotics Club, IIT Bombay}  \hfill{\sl \small (Sept'18)} 	\\
+	%{\em{Electronics and Robotics Club, IIT Bombay}}
+	\vspace{-6mm}
+	\begin{itemize}[itemsep = -0.45mm, leftmargin=*]
+		\item Made bluetooth controlled bot using \textbf{IC LM 8705} and \textbf{L293D} through careful circuit planning
+		\item Used \textbf{AT-TINY 2313} and bluetooth module \textbf{HC05} to control the bot through mobile application
+		\item Made the bot capable of negotiating different obstacles and completing the designed track
+
+	\end{itemize}
+	\vspace{-1mm}
+	\textbf{SCRATCH $|$ Web and Coding Club, IIT Bombay}  \hfill{\sl \small (Sept'18)} 	\\
+	%{\em{Web and Coding Club, IIT Bombay}}
+	\vspace{-6mm}
+	\begin{itemize}[itemsep = -0.45mm, leftmargin=*]
+		\item Designed an arcade game leading a group of 3 completely on the visual programming language \textbf{SCRATCH}
+		\item Developed a game with fluid character movement mechanics and a realistic life points system 
+		\item Awarded \textbf{Special Mention} from the club for the commendable performance and craftsmanship
+	\end{itemize}
+	\vspace{-5mm}	
+%	\textbf{Summer Induction Program $|$ IITB Racing } \hfill{\sl \small (Autumn 2015)} \\
+%	\vspace{-19pt}
+%	\begin{itemize}[itemsep = -1mm, leftmargin=*]
+%		\item Gained knowledge about various parts of a car focusing the power transmission unit and simulation in MATLAB
+%	\end{itemize}
+\addtolength{\topmargin}{0.75in}
+	\vspace{-1mm}
+	
+	\section*{\color{blue}Miscellaneous\xfilll[0pt]{0.5pt}}
+	\vspace{-7pt}
+	\textbf{Workshop Training $|$ Department of Mechanical Engineering} \hfill{\sl \small (Aug'18- Nov'18) }  	\\
+	%{\em{Department of Mechanical Eng.}}
+	\vspace{-6mm}
+	\begin{itemize}[itemsep = -0.35mm, leftmargin=*]
+		\item Performed and learned about \textbf{contact forming processes} like Cutting and Fitting of mild steel, made wooden blocks to replicate them into pre-assigned shapes and Electric Arc Welding of two different steel plates
+		\item Gained expertise in \textbf{Metal Forming Operations} like Lathing, Shaping, Welding under professional guidance
+	%	\item The bot was capable of negotiating different obstacles and completing the designed track
+	\end{itemize}
+	
+	
+\vspace{-4mm}
+	\section*{\color{blue}Relevant Courses Undertaken\xfilll[0pt]{0.5pt}}
+	\vspace{-3mm}
+    \begin{itemize}[itemsep = -0.45mm, leftmargin=*]
+\begin{table}[h]
+
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{Core Courses} & \multicolumn{1}{c|}{Other Courses}\\ \hline
+\begin{tabular}[c]{@{}l@{}}Chemical Engineering Thermodynamics I \& II\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\\Numerical Analysis\\Data Analysis\\Process Fluid Mechanics\\ Computational Methods Lab\\ Transport Phenomena\\  Heat Transfer\\   Mass Transfer*\\ Chemical Reaction Engineering*\\ Solid Mechanics*\\ Chemical Engineering Lab I \& II   \end{tabular} & \begin{tabular}[c]{@{}l@{}}Operations Analysis               \\ Basics of Electricity and Magnetism \,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, \,\, \\ Cellular \& Physical Biology\\ Psychology\\ Computer Programming\\ Economics\\ Calculus \& Differential Equations\\ Quantum Physics\\ Electrical \& Electronic Circuits*\hfill\\ Engineering Drawing\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+	    \begin{itemize}
+	        \hfill{\sl \small * courses to be completed by December 2020} 
+	    \end{itemize}    
+	\end{itemize}
+	%\vspace*{-3pt}
+	\vspace*{-6mm}
+
+	\section*{\color{blue}Extracurricular Activities\xfilll[0pt]{0.5pt}}
+	\vspace{-1mm}
+    \begin{itemize}[itemsep = -0.35 mm, leftmargin=*]
+       \item{Bagged \textbf{silver} medal in chess competition held during Freshiesta which had \textbf{100+} participants}
+       \item Executed a workshop under Student Solar Ambassador Program which broke \textbf{Guinness World Record} attended by a total of \textbf{5000+} students raising awareness about solar energy 
+        \item{Achieved an International chess rating of \textbf{1325} (FIDE) in Blitz and \textbf{1225} (FIDE) in Rapid from the \textbf{World Chess Federation} by defeating 9 to 10 rated players across \textbf{10+} states \hfill\em{('19)}\em{} 
+        \item{Completed \textbf{80 hours} of chess training under the \textbf{National Sports Organization} } \hfill\em{('19)}\em{}
+        \item{Rewarded for \textbf{high standard} of excellence in \textbf{Scientific Inclination} in School among \textbf{500+} students} \hfill\em{('16)}\em{}
+        \item{Attended \textbf{Student Industry Meet} and discussed the current standpoint of \textbf{14+} core chemical industries}
+        \item{Member of Hostel 3 \textbf{Crossy General Championship} team and helped in securing \textbf{1st} position}
+ 
+	
+      %  \item Part of organising team of \textbf{’CURED'}, a free \textbf{diabetes checkup} and awareness program
+%conducted by Techfest which witnessed more than \textbf{170+} free diabetes screenings 
+%camps \hfill{\sl \small (2017)}  
+      %  \item Represented hostel and bagged \textbf{2nd} position in \textbf{Wall Painting} general championship \hfill{\sl \small (2018)} 
+     %   \item Participated in Freshizza Dance and Video Making competition\hfill{\sl \small (2016)} 
+	\end{itemize}
+	\vspace{-5mm}
+	
+\end{document}
